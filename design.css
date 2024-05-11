@@ -7,8 +7,23 @@
 }
 
 .navbar-toggler {
+    display: none !important;
     border: none !important;
     outline: none !important;
+}
+/* Ensure the menu button is visible only on small screens */
+@media (max-width: 991.98px) {
+    .navbar-toggler {
+        display: block; /* Display the menu button on small screens */
+    }
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 992px) {
+    .navbar-collapse {
+        display: flex !important; /* Ensure the menu items are always visible */
+        justify-content: flex-end; /* Align menu items to the right */
+    }
 }
 
 .white-body {
