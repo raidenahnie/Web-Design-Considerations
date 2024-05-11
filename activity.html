@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Considerations</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="design.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Content Fonts -->
+    <link href="https://fonts.cdnfonts.com/css/tilt-warp" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/noto-serif-gurmukhi" rel="stylesheet">
+    <script src='animations.js'></script>
+</head>
+<body>
+
+<!-- top navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-light topnav shadow">
+  <div class="container-fluid">
+    <!-- Menu button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+    </button>
+    <!-- Logo -->
+    <a class="navbar-brand" href="#"><img src="logo.png" alt="logo"></a>
+    <!-- Search icon -->
+    <button class="btn ms-auto" type="button"><i class="fa fa-search"></i></button>
+    <!-- Navbar content -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#introduction">Introduction</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aspectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Important Web Design Consideration</a>
+        <ul class="dropdown-menu animate__animated animate__fadeIn" aria-labelledby="aspectsDropdown">
+            <li><a class="dropdown-item" href="#ux">UX Design</a></li>
+            <li><a class="dropdown-item" href="#accessibility">Accessibility</a></li>
+            <li><a class="dropdown-item" href="#responsiveness">Responsiveness</a></li>
+            <li><a class="dropdown-item" href="#vd">Visual Design</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Title & Motto -->
+<div class="container-fluid title-section">
+    <div class="title-box">
+        <h1 class="text-center">Web Design Considerations</h1>
+        <p class="text-center">Designing for Every User, Every Device: Creating Web Experiences with Care and Inclusivity</p>
+    </div>
+</div>
+
+<!-- Picture -->
+<div class="container-fluid picture-section">
+    <img class="img-fluid" src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*tw3ArkbdihbwwZ4OgTqkZw.png" alt="Front Page Image">
+</div>
+
+<!-- Introduction section -->
+<section id="introduction">
+    <h2>What is Web Design?</h2>
+    <div class="content">
+        <p>Web design refers to the process of creating the visual appearance and layout of websites. It encompasses various elements such as layout, colors, fonts, images, and interactive features to deliver a seamless and engaging user experience. Web designers use tools like graphic design software and coding languages such as HTML, CSS, and JavaScript to craft websites that are both aesthetically pleasing and functional. Effective web design involves considering factors like user experience, accessibility, responsiveness, and visual appeal to create websites that meet the needs of the target audience and achieve the desired objectives, whether it's providing information, selling products, or promoting services.</p>
+    </div>
+</section>
+
+<!-- Aspects section -->
+<section id="aspects">
+    <h2>4 Aspects of Web Design</h2>
+    <div class="content">
+        <p>Web design encompasses four key aspects that are essential for creating effective and engaging websites.</p>
+    </div>
+</section>
+
+<!-- UX section -->
+<section id="ux">
+    <h2>1. User Experience (UX)</h2>
+    <div class="content">
+        <p>User experience encompasses the overall experience users have while interacting with a website. It involves factors such as ease of use, intuitiveness, accessibility, and efficiency. Designers strive to create seamless user experiences by understanding user needs, behaviors, and motivations, and designing interfaces that meet those requirements. By prioritizing UX, websites can increase user satisfaction, engagement, and retention.</p>
+    </div>
+</section>
+
+<!-- Accessibility section -->
+<section id="accessibility">
+    <h2>2. Accessibility</h2>
+    <div class="content">
+        <p>Accessibility ensures that websites are usable by all individuals, including those with disabilities. This involves adhering to standards and guidelines such as the Web Content Accessibility Guidelines (WCAG), which provide recommendations for making web content more accessible to people with disabilities. Design considerations include providing alternative text for images, ensuring keyboard navigation, using semantic HTML, and designing with color contrast in mind. By prioritizing accessibility, websites can reach a broader audience and demonstrate a commitment to inclusivity and equality.</p>
+    </div>
+</section>
+
+<!-- Responsiveness section -->
+<section id="responsiveness">
+    <h2>3. Responsiveness</h2>
+    <div class="content">
+        <p>Responsiveness refers to the ability of a website to adapt and provide an optimal viewing experience across a wide range of devices and screen sizes. With the proliferation of smartphones, tablets, and other mobile devices, it's crucial for websites to be responsive to ensure usability and accessibility on any device. Designers achieve responsiveness through techniques such as fluid layouts, flexible images, and CSS media queries, allowing websites to adjust their layout and content dynamically based on the user's device. By prioritizing responsiveness, websites can provide a consistent and user-friendly experience across all devices, improving user satisfaction and engagement.</p>
+    </div>
+</section>
+
+<!-- Visual Design section -->
+<section id="vd">
+    <h2>4. Visual Design</h2>
+    <div class="content">
+        <p>Visual design focuses on the aesthetic appeal and visual elements of a website, including layout, color scheme, typography, and imagery. It plays a crucial role in creating a memorable and engaging user experience by capturing the user's attention and conveying the brand's personality and message effectively. Designers use principles such as visual hierarchy, balance, contrast, and alignment to create visually appealing and harmonious designs that enhance usability and readability. By prioritizing visual design, websites can leave a lasting impression on users and differentiate themselves from competitors in a crowded online landscape.</p>
+    </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Font Awesome JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/js/all.min.js"></script>
+</body>
+</html>
