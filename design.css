@@ -11,7 +11,6 @@
     outline: none !important;
 }
 
-
 .white-body {
     background-color: #FFFFFF;
     padding: 20px;
@@ -54,6 +53,7 @@
     max-width: 80%; /* Limit the image width to 80% of its container */
     border-radius: 10px;
     margin-top: -100px; /* Adjust margin to add space between title and picture */
+    align-items: center;
 }
 
 /* Aspects Section */
@@ -281,6 +281,8 @@
     }
 }
 
+/*----------- [END] DESKTOP AND MOBILE VIEW ---------*/
+
 /* Ensure the menu button is visible only on small screens */
 @media (max-width: 991.98px) {
     .navbar-toggler {
@@ -294,6 +296,4 @@
         display: flex !important; /* Ensure the menu items are always visible */
         justify-content: flex-end; /* Align menu items to the right */
     }
-}
-
-/*----------- [END] DESKTOP AND MOBILE VIEW ---------*/
+    }
