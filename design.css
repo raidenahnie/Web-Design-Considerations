@@ -16,47 +16,90 @@
     padding: 20px;
 }
 
-/* Title Section */
 .title-section {
     padding: 50px 0;
 }
 
 .title-box {
-    background-color: rgba(255, 255, 255, 0.7); /* Add a semi-transparent background */
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
     border-radius: 10px;
-    text-align: center; /* Center align the content */
-    margin: auto; /* Center the box horizontally */
-    max-width: 80%; /* Limit the width of the box */
-    margin-top: 50px; /* Adjust margin to add space between topnav and title */
-    margin-bottom: 50px; /* Adjust margin to add space between title and picture */
+    text-align: center;
+    margin: auto;
+    max-width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .title-box h1 {
     font-family: 'Tilt Warp', sans-serif;
-    margin-bottom: 10px; /* Add some space below the title */
-    margin-top: 20px; /* Adjust margin to add space between title and motto */
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .title-box p {
-    font-family: 'Noto Serif Gurmukhi', serif; /* Use Noto Serif Gurmukhi font for the motto */
-    margin-bottom: 20px; /* Add some space below the motto */
+    font-family: 'Noto Serif Gurmukhi', serif;
+    margin-bottom: 20px;
 }
 
-/* Picture Section */
 .picture-section {
-    padding: 20px 0; /* Adjust padding for mobile devices */
+    padding: 20px 0;
     text-align: center;
 }
 
 .picture-section img {
-    max-width: 80%; /* Limit the image width to 80% of its container */
+    max-width: 80%;
     border-radius: 10px;
-    margin-top: -100px; /* Adjust margin to add space between title and picture */
+    margin-top: -100px;
     align-items: center;
 }
 
-/* Aspects Section */
+#introduction {
+    padding: 20px;
+    max-width: 85%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#introduction h2 {
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#introduction .content {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+#introduction .content p {
+    margin-bottom: 15px;
+    font-family: 'Noto Serif Gurmukhi', serif;
+    text-align: justify;
+}
+#wdc h2 {
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    
+}
+
+#wdc .content {
+    line-height: 1.6;
+    font-size: 18px;
+    
+}
+
+#wdc .content p {
+    font-family: 'Noto Serif Gurmukhi', serif;
+    margin-bottom: 15px;
+    text-align: justify;
+    
+}
+
 #aspects {
     padding: 20px;
     max-width: 85%;
@@ -83,217 +126,364 @@
     text-align: justify;
 }
 
-/* UX Section */
+#conclusion {
+    padding: 20px;
+    max-width: 85%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#conclusion h2 {
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#conclusion .content {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+#conclusion .content p {
+    margin-bottom: 15px;
+    font-family: 'Noto Serif Gurmukhi', serif;
+    text-align: justify;
+}
+
 #ux {
     padding: 20px;
-    background-color: #f8f9fa; /* Light gray background */
-    border-radius: 10px; /* Rounded corners */
-    margin-bottom: 30px; /* Add some space below the section */
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 0px;
     max-width: 85%;
     margin: 0 auto;
 }
 
 #ux h2 {
     font-family: 'Tilt Warp', sans-serif;
-    font-size: 24px; /* Increase font size for headings */
-    color: #333; /* Darker text color */
-    margin-bottom: 10px; /* Add some space below the heading */
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 #ux .content {
-    line-height: 1.6; /* Increase line height for better readability */
-    font-size: 18px; /* Adjust font size for content */
+    line-height: 1.6;
+    font-size: 18px;
 }
 
 #ux .content p {
     font-family: 'Noto Serif Gurmukhi', serif;
-    margin-bottom: 15px; /* Add some space between paragraphs */
+    margin-bottom: 15px;
     text-align: justify;
 }
 
-/* Accessibility Section */
 #accessibility {
     padding: 20px;
-    background-color: #f8f9fa; /* Light gray background */
-    border-radius: 10px; /* Rounded corners */
-    margin-bottom: 30px; /* Add some space below the section */
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 30px;
     max-width: 85%;
     margin: 0 auto;
 }
 
 #accessibility h2 {
     font-family: 'Tilt Warp', sans-serif;
-    font-size: 24px; /* Increase font size for headings */
-    color: #333; /* Darker text color */
-    margin-bottom: 10px; /* Add some space below the heading */
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 #accessibility .content {
-    line-height: 1.6; /* Increase line height for better readability */
-    font-size: 18px; /* Adjust font size for content */
+    line-height: 1.6;
+    font-size: 18px;
 }
 
 #accessibility .content p {
     font-family: 'Noto Serif Gurmukhi', serif;
-    margin-bottom: 15px; /* Add some space between paragraphs */
+    margin-bottom: 15px;
     text-align: justify;
 }
 
-/* Responsiveness Section */
 #responsiveness {
     padding: 20px;
-    background-color: #f8f9fa; /* Light gray background */
-    border-radius: 10px; /* Rounded corners */
-    margin-bottom: 30px; /* Add some space below the section */
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 30px;
     max-width: 85%;
     margin: 0 auto;
 }
 
 #responsiveness h2 {
     font-family: 'Tilt Warp', sans-serif;
-    font-size: 24px; /* Increase font size for headings */
-    color: #333; /* Darker text color */
-    margin-bottom: 10px; /* Add some space below the heading */
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 #responsiveness .content {
-    line-height: 1.6; /* Increase line height for better readability */
-    font-size: 18px; /* Adjust font size for content */
+    line-height: 1.6;
+    font-size: 18px;
 }
 
 #responsiveness .content p {
     font-family: 'Noto Serif Gurmukhi', serif;
-    margin-bottom: 15px; /* Add some space between paragraphs */
+    margin-bottom: 15px;
     text-align: justify;
 }
 
-/* Visual Design Section */
 #vd {
     padding: 20px;
-    background-color: #f8f9fa; /* Light gray background */
-    border-radius: 10px; /* Rounded corners */
-    margin-bottom: 30px; /* Add some space below the section */
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 30px;
     max-width: 85%;
     margin: 0 auto;
 }
 
 #vd h2 {
     font-family: 'Tilt Warp', sans-serif;
-    font-size: 24px; /* Increase font size for headings */
-    color: #333; /* Darker text color */
-    margin-bottom: 10px; /* Add some space below the heading */
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 #vd .content {
-    line-height: 1.6; /* Increase line height for better readability */
-    font-size: 18px; /* Adjust font size for content */
+    line-height: 1.6;
+    font-size: 18px;
 }
 
 #vd .content p {
     font-family: 'Noto Serif Gurmukhi', serif;
-    margin-bottom: 15px; /* Add some space between paragraphs */
+    margin-bottom: 15px;
     text-align: justify;
 }
-/*----------- DESKTOP AND MOBILE VIEW ---------*/
 
-/* Title and Motto font size for DESKTOP view */
+#po {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+#po h2 {
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#po .content {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+#po .content p {
+    font-family: 'Noto Serif Gurmukhi', serif;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#cs {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+#cs h2 {
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#cs .content {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+#cs .content p {
+    font-family: 'Noto Serif Gurmukhi', serif;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#seo {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+#seo h2 {
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#seo .content {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+#seo .content p {
+    font-family: 'Noto Serif Gurmukhi', serif;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#security {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+#security h2 {
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#security .content {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+#security .content p {
+    font-family: 'Noto Serif Gurmukhi', serif;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#scaleflex {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+#scaleflex h2 {
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#scaleflex .content {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+#scaleflex .content p {
+    font-family: 'Noto Serif Gurmukhi', serif;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#credits .name {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #a0aec0;
+}
+
 @media (min-width: 768px) {
     .title-box h1 {
-        font-size: 72px; /* Adjust the font size for desktop view */
+        font-size: 72px;
     }
 
     .title-box p {
-        font-size: 24px; /* Adjust the font size for desktop view */
+        font-size: 24px;
     }
 
-    #introduction {
+    #wdc {
         padding: 20px;
-        background-color: #f8f9fa; /* Light gray background */
-        border-radius: 10px; /* Rounded corners */
-        margin-bottom: 30px; /* Add some space below the section */
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        margin-bottom: 30px;
         max-width: 85%;
         margin: 0 auto;
     }
 
-    #introduction h2 {
+    #wdc h2 {
         font-family: 'Tilt Warp', sans-serif;
-        font-size: 24px; /* Increase font size for headings */
-        color: #333; /* Darker text color */
-        margin-bottom: 10px; /* Add some space below the heading */
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 10px;
     }
 
-    #introduction .content {
-        line-height: 1.6; /* Increase line height for better readability */
-        font-size: 18px; /* Adjust font size for content */
+    #wdc .content {
+        line-height: 1.6;
+        font-size: 18px;
     }
 
-    #introduction .content p {
+    #wdc .content p {
         font-family: 'Noto Serif Gurmukhi', serif;
-        margin-bottom: 15px; /* Add some space between paragraphs */
+        margin-bottom: 15px;
         text-align: justify;
     }
 }
 
-/* Title font size and alignment for MOBILE view */
+
 @media (max-width: 767px) {
     .title-box h1 {
-        font-size: 33px; /* Adjust the font size for mobile view */
-        text-align: center; /* Center align the title for mobile view */
+        font-size: 33px;
+        text-align: center;
     }
-
-    #introduction {
+    
+    #wdc {
         padding: 20px;
-        background-color: #f8f9fa; /* Light gray background */
-        max-width: 800px; /* Set a maximum width */
-        margin: 0 auto; /* Center the section horizontally */
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        max-width: 85%;
+        margin: 0 auto;
     }
 
-    /* Adjustments for mobile view */
-    @media (max-width: 767px) {
-        #introduction {
-            max-width: 90%; /* Adjust the maximum width for smaller screens */
-        }
-    }
-
-    #introduction {
-        padding: 20px;
-        background-color: #f8f9fa; /* Light gray background */
-        border-radius: 10px; /* Rounded corners */
-        margin-bottom: 30px; /* Add some space below the section */
-    }
-
-    #introduction h2 {
+    #wdc h2 {
         font-family: 'Tilt Warp', sans-serif;
-        font-size: 24px; /* Increase font size for headings */
-        color: #333; /* Darker text color */
-        margin-bottom: 10px; /* Add some space below the heading */
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 10px;
     }
 
-    #introduction .content {
-        line-height: 1.6; /* Increase line height for better readability */
-        font-size: 18px; /* Adjust font size for content */
+    #wdc .content {
+        line-height: 1.6;
+        font-size: 18px;
     }
 
-    #introduction .content p {
-        margin-bottom: 15px; /* Add some space between paragraphs */
+    #wdc .content p {
         font-family: 'Noto Serif Gurmukhi', serif;
+        margin-bottom: 15px;
         text-align: justify;
     }
 }
 
-/*----------- [END] DESKTOP AND MOBILE VIEW ---------*/
-
-/* Ensure the menu button is visible only on small screens */
 @media (max-width: 991.98px) {
     .navbar-toggler {
-        display: block; /* Display the menu button on small screens */
+        display: block;
     }
 }
 
-/* Adjustments for larger screens */
 @media (min-width: 992px) {
     .navbar-collapse {
-        display: flex !important; /* Ensure the menu items are always visible */
-        justify-content: flex-end; /* Align menu items to the right */
+        display: flex !important;
+        justify-content: flex-end;
     }
-    }
+}
